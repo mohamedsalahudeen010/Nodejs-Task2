@@ -1,0 +1,17 @@
+{
+    "version":2,
+    "name":"Rooms-data",
+    "builds":[
+        
+        {
+            "src":"./index.jd",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/index.js"
+        }
+    ]
+}
